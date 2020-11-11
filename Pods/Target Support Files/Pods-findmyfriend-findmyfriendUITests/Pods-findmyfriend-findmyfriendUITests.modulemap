@@ -1,0 +1,6 @@
+framework module Pods_findmyfriend_findmyfriendUITests {
+  umbrella header "Pods-findmyfriend-findmyfriendUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
