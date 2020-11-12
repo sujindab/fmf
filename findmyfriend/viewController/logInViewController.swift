@@ -45,7 +45,7 @@ class logInViewController: UIViewController {
                 print(email)
                 print(error)
             }else{
-                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? homeViewController
+                let homeViewController = self.storyboard?.instantiateViewController(identifier: "homeVC") 
                 self.view.window?.rootViewController = homeViewController
                 self.view.window?.makeKeyAndVisible()
             }

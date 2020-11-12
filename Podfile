@@ -22,4 +22,5 @@ target 'findmyfriend' do
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'FloatingPanel'
 end
